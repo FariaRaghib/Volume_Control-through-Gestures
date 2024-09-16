@@ -20,11 +20,11 @@ PyAutoGUI (pyautogui)
 - Install the required dependencies:
 ### pip install opencv-python mediapipe pyautogui
 Run the project:
-### python main.py\
+### python main.py
 The program will open your webcam and start detecting hand gestures. Move your thumb and index finger closer or farther apart to control the system volume.
 
 ## How It Works
--Hand Detection: Mediapipe detects the position of hand landmarks (specifically the thumb and index finger).
--Distance Calculation: The Euclidean distance between the thumb and index finger is calculated.
--Volume Control: If the distance exceeds a threshold, the system volume is increased. If the distance is smaller, the volume is decreased.
+-Hand Detection: Mediapipe detects the position of hand landmarks (specifically the thumb and index finger).\
+-Distance Calculation: The Euclidean distance between the thumb and index finger is calculated.\
+-Volume Control: If the distance exceeds a threshold, the system volume is increased. If the distance is smaller, the volume is decreased.\
 -Visual Feedback: A line connecting the thumb and index finger is drawn on the webcam feed, along with circles representing the fingertips.
